@@ -1,0 +1,48 @@
+{
+  "name": "dropfort-module-build-dependencies",
+  "version": "1.0.0",
+  "description": "A project created to have a single source for all dropfort_module_build node dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version -a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldfrontlabs/dropfort-module-build-dependencies.git"
+  },
+  "author": "Coldfront Labs Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coldfrontlabs/dropfort-module-build-dependencies/issues"
+  },
+  "homepage": "https://github.com/coldfrontlabs/dropfort-module-build-dependencies#readme",
+  "dependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-terser": "^0.4.4",
+    "autoprefixer": "^10.4.19",
+    "commitizen": "^4.3.0",
+    "core-js": "^3.36.1",
+    "core-js-compat": "^3.36.1",
+    "cssnano": "^6.1.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-drupal-contrib": "^2.1.0-beta.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "postcss-discard-comments": "^6.0.2",
+    "prettier": "^3.2.5",
+    "rollup": "^4.14.0",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "sass": "^1.74.1",
+    "standard-version": "^9.5.0",
+    "standard-version-updater-yaml": "^1.0.3",
+    "stylelint": "^16.3.1",
+    "stylelint-config-coldfront": "^5.0.0-beta.0",
+    "terser": "^5.30.3"
+  }
+}
