@@ -1,6 +1,6 @@
 {
   "name": "dropfort-module-build-dependencies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A project created to have a single source for all dropfort_module_build node dependencies.",
   "main": "index.js",
   "scripts": {
