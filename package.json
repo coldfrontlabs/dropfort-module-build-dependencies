@@ -4,7 +4,7 @@
   "description": "A project created to have a single source for all dropfort_module_build node dependencies.",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version -a"
+    "release": "commit-and-tag-version -a"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-terser": "^0.4.4",
     "autoprefixer": "^10.4.19",
+    "commit-and-tag-version": "^12.5.1",
     "commitizen": "^4.3.0",
     "core-js": "^3.36.1",
     "core-js-compat": "^3.36.1",
@@ -39,7 +40,6 @@
     "rollup": "^4.14.0",
     "rollup-plugin-cleanup": "^3.2.1",
     "sass": "^1.74.1",
-    "standard-version": "^9.5.0",
     "standard-version-updater-yaml": "^1.0.3",
     "stylelint": "^16.3.1",
     "stylelint-config-coldfront": "^5.0.0-beta.0",
